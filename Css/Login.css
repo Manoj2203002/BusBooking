@@ -94,3 +94,10 @@ color: white;
   text-decoration: none;
   color: aqua;
 }
+.msg {
+  color: tomato;
+  font-size:0.85rem;
+  margin: 0;
+  position: relative;
+  bottom:10px;
+}
