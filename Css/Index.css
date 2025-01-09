@@ -15,8 +15,14 @@ flex-direction: column;
 }
 .container h1{
     color:white;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .index{
     align-items: center;
@@ -28,13 +34,13 @@ flex-direction: column;
     height: 100px;   
     background-color: white;
 }
-.index input[type="text"]{
+.index select{
     width: 60%;
     margin: 10px;
     border:none;
     border-bottom: 1px solid;
 }
-.index input:focus{
+.index select:focus{
     outline: none;
 }
 .from{
@@ -78,4 +84,19 @@ flex-direction: column;
     color: white;
     font-weight: 400;
     font-size: x-large;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.content h1{
+    text-decoration: underline;
+    margin: 10px;
+}
+.content p{
+    text-align: justify;
+    margin:10px 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
 }
