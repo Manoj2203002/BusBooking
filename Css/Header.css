@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+}
+
+.div1 {
+    background-color: black;
+    height: 70px;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.list {
+    display: flex;
+    gap: 18px;
+    list-style: none;
+    margin-right: 25px;
+    padding: 0;
+}
+
+.list li {
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.list li:hover {
+    border: 1px solid snow;
+}
