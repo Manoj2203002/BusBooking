@@ -1,35 +1,23 @@
-body {
+body{
     margin: 0;
-    height: 100vh;
     display: flex;
 }
-
-.div1 {
-    background-color: black;
-    height: 70px;
+.div1{
+    border: 1px solid black;
     width: 100%;
-    color: white;
+}
+.nav{
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
-
-.list {
-    display: flex;
-    gap: 18px;
-    list-style: none;
-    margin-right: 25px;
-    padding: 0;
+.nav img{
+    width: 100px;
+    height: 100px;
 }
-
-.list li {
-    font-size: larger;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 400;
-    padding: 10px;
-    cursor: pointer;
-}
-
-.list li:hover {
-    border: 1px solid snow;
+.nav .div2 a{
+    text-decoration: none;
+    color: black;
+    font-size:x-large;
+    margin: 10px;
 }

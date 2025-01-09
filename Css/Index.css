@@ -74,6 +74,8 @@ form{
 }
 .btn{
     height: 100%;
+    display: flex;
+    justify-content: end;
 }
 .btn button{
     background-color: rgb(41, 185, 22);
