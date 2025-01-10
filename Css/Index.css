@@ -34,13 +34,13 @@ form{
     height: 100px;   
     background-color: white;
 }
-.index select{
+.index input{
     width: 60%;
     margin: 10px;
     border:none;
     border-bottom: 1px solid;
 }
-.index select:focus{
+.index input:focus{
     outline: none;
 }
 .from{
@@ -101,4 +101,23 @@ form{
     margin:10px 100px;
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
+}
+.Swap-btn button{
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    position: relative;
+    right:14px;
+}
+.Swap-btn i{
+    font-size: 15px;
+    position: relative;
+    top: 1px;
+}
+#msg {
+    margin: 0;
+    color:rgb(194, 197, 5);
+    font-size: larger;
+    font-weight: 400;
 }
