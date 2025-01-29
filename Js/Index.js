@@ -1,29 +1,36 @@
+
 const From = document.getElementById('From');
 const To = document.getElementById('To');
 const date = document.getElementById('Date');
 const cityList = document.getElementById('cityList');
 const msg=document.getElementById('msg');
 const Citys = {
-    "Bangalore": "Karnataka",
     "Chennai": "Tamil Nadu",
-    "Hyderabad": "Telangana",
-    "Kochi": "Kerala",
-    "Thiruvananthapuram": "Kerala",
     "Coimbatore": "Tamil Nadu",
-    "Mysore": "Karnataka",
-    "Visakhapatnam": "Andhra Pradesh",
     "Tiruchirappalli": "Tamil Nadu",
     "Madurai": "Tamil Nadu",
-    "Kozhikode": "Kerala",
-    "Warangal": "Telangana",
-    "Vijayawada": "Andhra Pradesh",
-    "Guntur": "Andhra Pradesh",
-    "Nellore": "Andhra Pradesh",
-    "Kurnool": "Andhra Pradesh",
-    "Rajahmundry": "Andhra Pradesh",
-    "Tirupati": "Andhra Pradesh",
     "Salem": "Tamil Nadu",
-    "Erode": "Tamil Nadu"
+    "Erode": "Tamil Nadu",
+    "Tirunelveli": "Tamil Nadu",
+    "Vellore": "Tamil Nadu",
+    "Dindigul": "Tamil Nadu",
+    "Thanjavur": "Tamil Nadu",
+    "Namakkal": "Tamil Nadu",
+    "Karur": "Tamil Nadu",
+    "Dharmapuri": "Tamil Nadu",
+    "Krishnagiri": "Tamil Nadu",
+    "Cuddalore": "Tamil Nadu",
+    "Nagapattinam": "Tamil Nadu",
+    "Ramanathapuram": "Tamil Nadu",
+    "Sivaganga": "Tamil Nadu",
+    "Pudukkottai": "Tamil Nadu",
+    "Theni": "Tamil Nadu",
+    "Virudhunagar": "Tamil Nadu",
+    "Thoothukudi": "Tamil Nadu",
+    "Tenkasi": "Tamil Nadu",
+    "Kanyakumari": "Tamil Nadu",
+    "Ariyalur": "Tamil Nadu",
+    "Perambalur": "Tamil Nadu"
 };
 function Addcitys(datalistElement) {
     for (let city in Citys) {
@@ -63,7 +70,7 @@ function HandleClick(e) {
     msg.innerHTML="<p>*Destination and Bording City can't be same</p>";
     valid=false;
    }
-  else if (dateinput === "") {
+  else   if (dateinput === "") {
     msg.innerHTML += "<p>*Please Enter the Date</p>";
     valid = false;
     } 
