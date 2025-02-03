@@ -10,49 +10,60 @@
 </head>
 <body>
     <div class="nav">
-    <nav class="navbar">
-        <div class="img"><a href="/index.html"><img src="./Css/Images/bus-png.png" alt=""></a>
-        </div>
-        <div class="link">
-            <ul>
-                <li><a href="./Html/Support.Html">Support</a></li>
-                <li> <a href="./Html/Aboutus.Html">About Us</a></li>
-                <li><a href="#Profile">Profile</a></li>
-            </ul>
-        </div>
-    </nav>
-</div>
+        <nav class="navbar">
+        </nav>
+    </div>
 <div class="container">
     <h1>Online Bus Ticket Booking</h1>
-    <form action="" onsubmit=" HandleClick(event)">
-        <div class="index">
-            <div class="from">
+    <div class=" index">
+        <form action="" onsubmit=" HandleClick(event)">
+            <div class="input-container">
                 <label for="From">From:</label>
-                <i class="fa-solid fa-city"></i>
+                <i class="fa-solid fa-city city" id="city"></i>
                 <input type="text" name="" id="From" list="cityList">
             </div>
-            <div class="Swap-btn">
-                <button type="button" onclick="swap(event)"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
-            </div>
-            <div class="to">
+            <div class="Swap">
+            <button type="button" onclick="swap(event)"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+            </div>    
+            <div class="input-container">
                 <label for="To">To:</label>
-                <i class="fa-solid fa-city"></i>
+                <i class="fa-solid fa-city" id="city"></i>
                 <input type="text" name="" id="To" list="cityList">
             </div>
-            <div class="Date">
+            <div>
                 <label for="Date">Date:</label>
-                <i class="fa-regular fa-calendar-days"></i>
                 <input type="date" name="Date" id="Date">
-                 </div>
-            <div class="btn">
-                <button type="submit">Search Bus</button>
             </div>
-        </div>
-    </form>
+            <div class="submit">
+                <button type="submit">Search Bus</button>
+            </div>           
+        </form>
+    </div>
     <div id="msg"></div>
-   <h1>Enjoy a safe and comfortable journey</h1>
+        <h1>Enjoy a safe and comfortable journey</h1>
+    </div>
 </div>
+<div class="History">
+    <table>
+        <thead>
+            <tr>
+                <td class="Data">id</td>
+                <td class="Data">Name</td>
+                <td class="Data">Mail</td>
+                <td class="Data">Time</td>
+                <td class="Data">Bording Point</td>
+                <td class="Data">Destination</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
 </div>
+<footer class="Footer">
+</footer>
 <datalist id ="cityList"></datalist>
 <script src="/Js/Index.js"></script>
 </body>

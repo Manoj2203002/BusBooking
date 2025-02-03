@@ -4,6 +4,10 @@ const To = document.getElementById('To');
 const date = document.getElementById('Date');
 const cityList = document.getElementById('cityList');
 const msg=document.getElementById('msg');
+const nav=document.querySelector('.navbar');
+fetch('/Html/Nav.Html').then(res=>res.text()).then(data=>{nav.innerHTML=data});
+const Footer=document.querySelector('.Footer');
+fetch('/Html/Footer.html').then(res=> res.text()).then(data=>{Footer.innerHTML=data});
 const Citys = {
     "Chennai": "Tamil Nadu",
     "Coimbatore": "Tamil Nadu",

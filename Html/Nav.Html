@@ -1,0 +1,55 @@
+<div>
+    <a href="/index.html"><img src="/Css/Images/bus-png.png" alt=""></a>
+</div>
+<div>
+    <ul>
+        <li><a href="./Html/Support.Html">Support</a></li>
+        <li> <a href="./Html/Aboutus.Html">About Us</a></li>
+        <li><a href="#Profile">Profile</a></li>
+    </ul>
+</div>
+<style>
+    .nav{
+    width: 100%;
+    background-color: #ff6600;
+    box-shadow: 2px 2px 12px black;
+    border-radius: 0px 0px 20px 20px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+    z-index: 1000;
+}
+.navbar{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar img{
+    width: 85px;
+    margin-left: 30px;
+    transition: all 0.3s ease-in;
+}
+.navbar img:hover{
+    transform: scale(1.15);
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+.navbar li a{
+    color: azure;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.2s ease-in;
+}
+.navbar li a:hover{
+    background-color: #6b3d1f;
+    padding:10px;
+    border-radius: 10px;
+}
+</style>

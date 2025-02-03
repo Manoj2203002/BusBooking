@@ -1,6 +1,141 @@
-body{
+*{
     margin: 0;
-    height: 100vh;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
     display: flex;
-     
+   background-color:aliceblue;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;    
+}
+
+.container{
+    width: 90%;
+    background-color: white;
+    box-shadow: 2px 2px 12px black;
+    margin: 110px auto;
+    padding: 10px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container h1{
+    color: #ff6600;
+    font-size: 30px;
+    margin:40px 30px;
+}
+.index form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.index label{
+    color: #ff6600;
+    font-size: larger;
+    font-weight: bold;
+    margin-right: 8px;
+}
+.index input {
+    width: 250px;
+    padding: 10px;
+    padding-right: 35px;
+    border: none;
+    box-shadow: 2px 2px 12px black;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+}
+.input-container i {
+    position: absolute;
+    right: 10px;
+    color: #ff6600;
+    font-size: 18px;
+}
+.index .Swap button{
+    background-color: #ff6600;
+    border: none;
+    padding: 10px;
+    color: aliceblue;
+    border-radius: 10px;
+}
+.index .submit button{
+    background-color: #ff6600;
+    border: none;
+    padding: 10px;
+    color: aliceblue;
+    border-radius: 10px;
+    font-size: larger;
+    transition: all 0.3s ease-in;
+}
+.submit button:hover{
+    transform: scale(1.1);
+    background-color: #cc5709;
+}
+.History {
+    display: flex;
+    width: 95%;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 2px 2px 12px black;
+    border-radius: 20px;
+    padding: 20px;
+    overflow-x: auto;
+    }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 18px;
+    min-width: 600px;
+}
+
+thead {
+    background-color: #ff6600;
+    color: white;
+    font-weight: bold;
+}
+
+thead tr {
+    border-bottom: 2px solid white;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+td {
+    color: #333;
+}
+
+tbody tr:hover {
+    background-color: #ffe5d0;
+}
+
+.Data {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #f0f8ff;
+}
+#msg{
+    margin-top: 30px;
+    color: rgb(255, 7, 7);
+    font-family: 'poppins',sans-serif;
+    font-weight: bold;
 }
