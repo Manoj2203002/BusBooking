@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.BusList {
+    margin-top: 70px;
+    width: 90%;
+    max-width: 900px;
+}
+
+.bus-card {
+    background-color: white;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.bus-card:hover {
+    transform: scale(1.02);
+}
+
+/* Bus Title */
+.bus-card h1 {
+    color: #ff6600;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Inline Details */
+.bus-details {
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+}
+
+.bus-details span {
+    font-weight: bold;
+    color: #ff6600;
+}

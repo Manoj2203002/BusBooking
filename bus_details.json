@@ -1,0 +1,802 @@
+[
+    {
+        "bus_id": "TN001",
+        "operator": "முருகா Travels",
+        "source": "Dindigul",
+        "destination": "Cuddalore",
+        "departure_time": "10:30 PM",
+        "arrival_time": "7:00 AM",
+        "ticket_price": 477,
+        "bus_type": "Luxury Sleeper"
+    },
+    {
+        "bus_id": "TN002",
+        "operator": "பெரியார் Travels",
+        "source": "Ramanathapuram",
+        "destination": "Tiruchirappalli",
+        "departure_time": "23:00 AM",
+        "arrival_time": "5:00 AM",
+        "ticket_price": 719,
+        "bus_type": "Semi-Sleeper"
+    },
+    {
+        "bus_id": "TN003",
+        "operator": "செங்கோல் Travels",
+        "source": "Tiruchirappalli",
+        "destination": "Karur",
+        "departure_time": "11:00 PM",
+        "arrival_time": "10:30 AM",
+        "ticket_price": 742,
+        "bus_type": "Semi-Sleeper"
+    },
+    {
+        "bus_id": "TN004",
+        "operator": "சிவாஜி Travels",
+        "source": "Virudhunagar",
+        "destination": "Dharmapuri",
+        "departure_time": "16:30 PM",
+        "arrival_time": "5:30 AM",
+        "ticket_price": 925,
+        "bus_type": "Non-AC Seater"
+    },
+    {
+        "bus_id": "TN005",
+        "operator": "அண்ணா Travels",
+        "source": "Thanjavur",
+        "destination": "Sivaganga",
+        "departure_time": "20:00 AM",
+        "arrival_time": "10:00 AM",
+        "ticket_price": 637,
+        "bus_type": "AC Sleeper"
+    },
+    {
+        "bus_id": "TN006",
+        "operator": "சிவாஜி Travels",
+        "source": "Thanjavur",
+        "destination": "Chennai",
+        "departure_time": "12:30 AM",
+        "arrival_time": "6:00 AM",
+        "ticket_price": 868,
+        "bus_type": "Luxury Sleeper"
+    },
+    {
+        "bus_id": "TN007",
+        "operator": "சிவாஜி Travels",
+        "source": "Thanjavur",
+        "destination": "Erode",
+        "departure_time": "20:30 PM",
+        "arrival_time": "3:30 AM",
+        "ticket_price": 1180,
+        "bus_type": "Luxury Sleeper"
+    },
+    {
+        "bus_id": "TN008",
+        "operator": "விஜய் Travels",
+        "source": "Thanjavur",
+        "destination": "Kanyakumari",
+        "departure_time": "15:00 AM",
+        "arrival_time": "12:00 AM",
+        "ticket_price": 1120,
+        "bus_type": "AC Seater"
+    },
+    {
+        "bus_id": "TN009",
+        "operator": "மதுரைவீரன் Travels",
+        "source": "Pudukkottai",
+        "destination": "Cuddalore",
+        "departure_time": "22:30 PM",
+        "arrival_time": "9:30 AM",
+        "ticket_price": 957,
+        "bus_type": "AC Seater"
+    },
+    {
+        "bus_id": "TN010",
+        "operator": "பெரியார் Travels",
+        "source": "Erode",
+        "destination": "Thoothukudi",
+        "departure_time": "5:00 PM",
+        "arrival_time": "6:30 AM",
+        "ticket_price": 1116,
+        "bus_type": "Semi-Sleeper"
+    },
+    {
+        "bus_id": "TN011",
+        "operator": "அலங்கார் Travels",
+        "source": "Thoothukudi",
+        "destination": "Theni",
+        "departure_time": "11:30 PM",
+        "arrival_time": "11:30 AM",
+        "ticket_price": 439,
+        "bus_type": "Non-AC Seater"
+    },
+    {
+        "bus_id": "TN012",
+        "operator": "அமர Travels",
+        "source": "Erode",
+        "destination": "Thoothukudi",
+        "departure_time": "6:00 PM",
+        "arrival_time": "6:30 AM",
+        "ticket_price": 377,
+        "bus_type": "Semi-Sleeper"
+    },
+    {
+        "bus_id": "TN013",
+        "operator": "அலங்கார் Travels",
+        "source": "Cuddalore",
+        "destination": "Salem",
+        "departure_time": "8:30 PM",
+        "arrival_time": "12:00 AM",
+        "ticket_price": 556,
+        "bus_type": "Non-AC Seater"
+    },
+    {
+        "bus_id": "TN014",
+        "operator": "பெரியார் Travels",
+        "source": "Thanjavur",
+        "destination": "Tiruchirappalli",
+        "departure_time": "14:00 PM",
+        "arrival_time": "2:30 PM",
+        "ticket_price": 865,
+        "bus_type": "Non-AC Seater"
+    },
+    {
+        "bus_id": "TN015",
+        "operator": "விஜய் Travels",
+        "source": "Chennai",
+        "destination": "Pudukkottai",
+        "departure_time": "16:30 PM",
+        "arrival_time": "4:30 AM",
+        "ticket_price": 815,
+        "bus_type": "Luxury Sleeper"
+    },
+    {
+        "bus_id": "TN016",
+        "operator": "அலங்கார் Travels",
+        "source": "Thoothukudi",
+        "destination": "Tiruchirappalli",
+        "departure_time": "15:30 PM",
+        "arrival_time": "4:00 AM",
+        "ticket_price": 866,
+        "bus_type": "AC Seater"
+    },
+    {
+        "bus_id": "TN017",
+        "operator": "சிவாஜி Travels",
+        "source": "Ramanathapuram",
+        "destination": "Salem",
+        "departure_time": "6:30 PM",
+        "arrival_time": "10:30 AM",
+        "ticket_price": 767,
+        "bus_type": "Luxury Sleeper"
+    },
+    {
+        "bus_id": "TN018",
+        "operator": "சிவாஜி Travels",
+        "source": "Tenkasi",
+        "destination": "Cuddalore",
+        "departure_time": "16:30 PM",
+        "arrival_time": "1:00 AM",
+        "ticket_price": 737,
+        "bus_type": "Luxury Sleeper"
+    },
+    {
+        "bus_id": "TN019",
+        "operator": "செங்கோல் Travels",
+        "source": "Ramanathapuram",
+        "destination": "Vellore",
+        "departure_time": "22:00 PM",
+        "arrival_time": "2:30 AM",
+        "ticket_price": 445,
+        "bus_type": "Non-AC Seater"
+    },
+    {
+        "bus_id": "TN020",
+        "operator": "பாண்டியன் Travels",
+        "source": "Tirunelveli",
+        "destination": "Vellore",
+        "departure_time": "15:30 AM",
+        "arrival_time": "7:00 PM",
+        "ticket_price": 1144,
+        "bus_type": "Luxury Sleeper"
+    },
+    {
+        "bus_id": "TN021",
+        "operator": "பாரதி Travels",
+        "source": "Perambalur",
+        "destination": "Ramanathapuram",
+        "departure_time": "8:00 PM",
+        "arrival_time": "7:30 AM",
+        "ticket_price": 1015,
+        "bus_type": "Non-AC Seater"
+    },
+    {
+        "bus_id": "TN022",
+        "operator": "அலங்கார் Travels",
+        "source": "Salem",
+        "destination": "Thoothukudi",
+        "departure_time": "23:30 PM",
+        "arrival_time": "10:00 AM",
+        "ticket_price": 785,
+        "bus_type": "Non-AC Seater"
+    },
+    {
+        "bus_id": "TN023",
+        "operator": "அருண் Travels",
+        "source": "Krishnagiri",
+        "destination": "Dindigul",
+        "departure_time": "12:00 PM",
+        "arrival_time": "6:30 PM",
+        "ticket_price": 818,
+        "bus_type": "Luxury Sleeper"
+    },
+    {
+        "bus_id": "TN024",
+        "operator": "பாண்டியன் Travels",
+        "source": "Sivaganga",
+        "destination": "Kanyakumari",
+        "departure_time": "10:00 PM",
+        "arrival_time": "8:00 AM",
+        "ticket_price": 200,
+        "bus_type": "Luxury Sleeper"
+    },
+    {
+        "bus_id": "TN025",
+        "operator": "பாண்டியன் Travels",
+        "source": "Krishnagiri",
+        "destination": "Ariyalur",
+        "departure_time": "20:30 PM",
+        "arrival_time": "7:00 PM",
+        "ticket_price": 1194,
+        "bus_type": "Luxury Sleeper"
+    },
+    {
+        "bus_id": "TN026",
+        "operator": "மதுரைவீரன் Travels",
+        "source": "Krishnagiri",
+        "destination": "Coimbatore",
+        "departure_time": "19:00 PM",
+        "arrival_time": "11:30 AM",
+        "ticket_price": 1137,
+        "bus_type": "Luxury Sleeper"
+    },
+    {
+        "bus_id": "TN027",
+        "operator": "செங்கோல் Travels",
+        "source": "Kanyakumari",
+        "destination": "Thanjavur",
+        "departure_time": "12:00 AM",
+        "arrival_time": "8:30 AM",
+        "ticket_price": 734,
+        "bus_type": "Semi-Sleeper"
+    },
+    {
+        "bus_id": "TN028",
+        "operator": "அமர Travels",
+        "source": "Ariyalur",
+        "destination": "Tirunelveli",
+        "departure_time": "21:00 PM",
+        "arrival_time": "6:30 AM",
+        "ticket_price": 1058,
+        "bus_type": "Luxury Sleeper"
+    },
+    {
+        "bus_id": "TN029",
+        "operator": "முருகா Travels",
+        "source": "Madurai",
+        "destination": "Ramanathapuram",
+        "departure_time": "7:00 PM",
+        "arrival_time": "11:00 AM",
+        "ticket_price": 282,
+        "bus_type": "Semi-Sleeper"
+    },
+    {
+        "bus_id": "TN030",
+        "operator": "பெரியார் Travels",
+        "source": "Namakkal",
+        "destination": "Cuddalore",
+        "departure_time": "8:30 PM",
+        "arrival_time": "1:30 AM",
+        "ticket_price": 419,
+        "bus_type": "Luxury Sleeper"
+    },
+    {
+        "bus_id": "TN031",
+        "operator": "மதுரைவீரன் Travels",
+        "source": "Theni",
+        "destination": "Thanjavur",
+        "departure_time": "17:00 PM",
+        "arrival_time": "12:00 PM",
+        "ticket_price": 306,
+        "bus_type": "Semi-Sleeper"
+    },
+    {
+        "bus_id": "TN032",
+        "operator": "செங்கோல் Travels",
+        "source": "Perambalur",
+        "destination": "Sivaganga",
+        "departure_time": "17:00 AM",
+        "arrival_time": "10:30 PM",
+        "ticket_price": 713,
+        "bus_type": "AC Sleeper"
+    },
+    {
+        "bus_id": "TN033",
+        "operator": "சிவாஜி Travels",
+        "source": "Theni",
+        "destination": "Nagapattinam",
+        "departure_time": "8:00 AM",
+        "arrival_time": "5:30 AM",
+        "ticket_price": 1023,
+        "bus_type": "Luxury Sleeper"
+    },
+    {
+        "bus_id": "TN034",
+        "operator": "சுந்தரம் Travels",
+        "source": "Thanjavur",
+        "destination": "Krishnagiri",
+        "departure_time": "11:00 AM",
+        "arrival_time": "2:00 AM",
+        "ticket_price": 1197,
+        "bus_type": "Non-AC Seater"
+    },
+    {
+        "bus_id": "TN035",
+        "operator": "சுந்தரம் Travels",
+        "source": "Cuddalore",
+        "destination": "Ramanathapuram",
+        "departure_time": "14:00 PM",
+        "arrival_time": "10:00 AM",
+        "ticket_price": 1097,
+        "bus_type": "Non-AC Seater"
+    },
+    {
+        "bus_id": "TN036",
+        "operator": "அண்ணா Travels",
+        "source": "Dharmapuri",
+        "destination": "Tenkasi",
+        "departure_time": "10:00 PM",
+        "arrival_time": "3:30 AM",
+        "ticket_price": 908,
+        "bus_type": "Non-AC Seater"
+    },
+    {
+        "bus_id": "TN037",
+        "operator": "அமர Travels",
+        "source": "Thoothukudi",
+        "destination": "Kanyakumari",
+        "departure_time": "15:00 PM",
+        "arrival_time": "5:30 PM",
+        "ticket_price": 204,
+        "bus_type": "Semi-Sleeper"
+    },
+    {
+        "bus_id": "TN038",
+        "operator": "விஜய் Travels",
+        "source": "Vellore",
+        "destination": "Pudukkottai",
+        "departure_time": "21:30 PM",
+        "arrival_time": "2:30 AM",
+        "ticket_price": 376,
+        "bus_type": "Non-AC Seater"
+    },
+    {
+        "bus_id": "TN039",
+        "operator": "அலங்கார் Travels",
+        "source": "Tirunelveli",
+        "destination": "Theni",
+        "departure_time": "15:30 AM",
+        "arrival_time": "1:30 AM",
+        "ticket_price": 204,
+        "bus_type": "Semi-Sleeper"
+    },
+    {
+        "bus_id": "TN040",
+        "operator": "பாரதி Travels",
+        "source": "Tenkasi",
+        "destination": "Vellore",
+        "departure_time": "13:30 PM",
+        "arrival_time": "2:00 AM",
+        "ticket_price": 1169,
+        "bus_type": "AC Sleeper"
+    },
+    {
+        "bus_id": "TN041",
+        "operator": "அமர Travels",
+        "source": "Tirunelveli",
+        "destination": "Dindigul",
+        "departure_time": "15:30 AM",
+        "arrival_time": "2:30 AM",
+        "ticket_price": 793,
+        "bus_type": "AC Seater"
+    },
+    {
+        "bus_id": "TN042",
+        "operator": "பாண்டியன் Travels",
+        "source": "Chennai",
+        "destination": "Salem",
+        "departure_time": "12:00 AM",
+        "arrival_time": "7:00 AM",
+        "ticket_price": 852,
+        "bus_type": "AC Seater"
+    },
+    {
+        "bus_id": "TN043",
+        "operator": "பாரதி Travels",
+        "source": "Tenkasi",
+        "destination": "Chennai",
+        "departure_time": "20:30 PM",
+        "arrival_time": "12:30 AM",
+        "ticket_price": 582,
+        "bus_type": "Non-AC Seater"
+    },
+    {
+        "bus_id": "TN044",
+        "operator": "பாண்டியன் Travels",
+        "source": "Sivaganga",
+        "destination": "Nagapattinam",
+        "departure_time": "12:30 PM",
+        "arrival_time": "8:00 AM",
+        "ticket_price": 346,
+        "bus_type": "Luxury Sleeper"
+    },
+    {
+        "bus_id": "TN045",
+        "operator": "பாரதி Travels",
+        "source": "Coimbatore",
+        "destination": "Thanjavur",
+        "departure_time": "15:30 PM",
+        "arrival_time": "2:30 PM",
+        "ticket_price": 251,
+        "bus_type": "AC Sleeper"
+    },
+    {
+        "bus_id": "TN046",
+        "operator": "அருண் Travels",
+        "source": "Madurai",
+        "destination": "Salem",
+        "departure_time": "5:30 PM",
+        "arrival_time": "11:00 AM",
+        "ticket_price": 617,
+        "bus_type": "AC Sleeper"
+    },
+    {
+        "bus_id": "TN047",
+        "operator": "விஜய் Travels",
+        "source": "Kanyakumari",
+        "destination": "Namakkal",
+        "departure_time": "22:00 AM",
+        "arrival_time": "4:00 AM",
+        "ticket_price": 962,
+        "bus_type": "AC Seater"
+    },
+    {
+        "bus_id": "TN048",
+        "operator": "அலங்கார் Travels",
+        "source": "Madurai",
+        "destination": "Erode",
+        "departure_time": "22:30 PM",
+        "arrival_time": "3:30 AM",
+        "ticket_price": 810,
+        "bus_type": "Luxury Sleeper"
+    },
+    {
+        "bus_id": "TN049",
+        "operator": "அலங்கார் Travels",
+        "source": "Kanyakumari",
+        "destination": "Erode",
+        "departure_time": "18:30 AM",
+        "arrival_time": "5:30 AM",
+        "ticket_price": 729,
+        "bus_type": "AC Sleeper"
+    },
+    {
+        "bus_id": "TN050",
+        "operator": "சுந்தரம் Travels",
+        "source": "Tirunelveli",
+        "destination": "Theni",
+        "departure_time": "14:00 PM",
+        "arrival_time": "12:00 AM",
+        "ticket_price": 704,
+        "bus_type": "AC Seater"
+    },
+    {
+        "bus_id": "TN051",
+        "operator": "அண்ணா Travels",
+        "source": "Thoothukudi",
+        "destination": "Erode",
+        "departure_time": "6:00 PM",
+        "arrival_time": "9:00 AM",
+        "ticket_price": 1157,
+        "bus_type": "Non-AC Seater"
+    },
+    {
+        "bus_id": "TN052",
+        "operator": "சுந்தரம் Travels",
+        "source": "Chennai",
+        "destination": "Nagapattinam",
+        "departure_time": "17:00 PM",
+        "arrival_time": "2:00 AM",
+        "ticket_price": 600,
+        "bus_type": "Non-AC Seater"
+    },
+    {
+        "bus_id": "TN053",
+        "operator": "முருகா Travels",
+        "source": "Coimbatore",
+        "destination": "Namakkal",
+        "departure_time": "11:30 PM",
+        "arrival_time": "12:30 AM",
+        "ticket_price": 450,
+        "bus_type": "Non-AC Seater"
+    },
+    {
+        "bus_id": "TN054",
+        "operator": "சிவாஜி Travels",
+        "source": "Thanjavur",
+        "destination": "Salem",
+        "departure_time": "19:00 PM",
+        "arrival_time": "3:00 AM",
+        "ticket_price": 921,
+        "bus_type": "Non-AC Seater"
+    },
+    {
+        "bus_id": "TN055",
+        "operator": "சிவாஜி Travels",
+        "source": "Sivaganga",
+        "destination": "Virudhunagar",
+        "departure_time": "21:00 AM",
+        "arrival_time": "11:30 AM",
+        "ticket_price": 385,
+        "bus_type": "AC Sleeper"
+    },
+    {
+        "bus_id": "TN056",
+        "operator": "அண்ணா Travels",
+        "source": "Chennai",
+        "destination": "Perambalur",
+        "departure_time": "9:00 PM",
+        "arrival_time": "2:30 PM",
+        "ticket_price": 649,
+        "bus_type": "Non-AC Seater"
+    },
+    {
+        "bus_id": "TN057",
+        "operator": "அண்ணா Travels",
+        "source": "Pudukkottai",
+        "destination": "Nagapattinam",
+        "departure_time": "5:30 PM",
+        "arrival_time": "11:00 AM",
+        "ticket_price": 995,
+        "bus_type": "AC Sleeper"
+    },
+    {
+        "bus_id": "TN058",
+        "operator": "சிவாஜி Travels",
+        "source": "Tenkasi",
+        "destination": "Karur",
+        "departure_time": "15:00 PM",
+        "arrival_time": "7:30 AM",
+        "ticket_price": 928,
+        "bus_type": "AC Sleeper"
+    },
+    {
+        "bus_id": "TN059",
+        "operator": "அலங்கார் Travels",
+        "source": "Salem",
+        "destination": "Theni",
+        "departure_time": "21:00 AM",
+        "arrival_time": "5:30 AM",
+        "ticket_price": 749,
+        "bus_type": "AC Sleeper"
+    },
+    {
+        "bus_id": "TN060",
+        "operator": "அருண் Travels",
+        "source": "Perambalur",
+        "destination": "Madurai",
+        "departure_time": "12:00 PM",
+        "arrival_time": "7:00 AM",
+        "ticket_price": 345,
+        "bus_type": "Semi-Sleeper"
+    },
+    {
+        "bus_id": "TN061",
+        "operator": "முருகா Travels",
+        "source": "Chennai",
+        "destination": "Theni",
+        "departure_time": "17:30 PM",
+        "arrival_time": "4:00 AM",
+        "ticket_price": 274,
+        "bus_type": "Luxury Sleeper"
+    },
+    {
+        "bus_id": "TN062",
+        "operator": "அண்ணா Travels",
+        "source": "Thoothukudi",
+        "destination": "Dharmapuri",
+        "departure_time": "23:00 AM",
+        "arrival_time": "5:00 AM",
+        "ticket_price": 527,
+        "bus_type": "AC Sleeper"
+    },
+    {
+        "bus_id": "TN063",
+        "operator": "செங்கோல் Travels",
+        "source": "Perambalur",
+        "destination": "Thanjavur",
+        "departure_time": "7:00 PM",
+        "arrival_time": "3:30 AM",
+        "ticket_price": 444,
+        "bus_type": "AC Seater"
+    },
+    {
+        "bus_id": "TN064",
+        "operator": "அமர Travels",
+        "source": "Virudhunagar",
+        "destination": "Erode",
+        "departure_time": "13:00 PM",
+        "arrival_time": "2:00 AM",
+        "ticket_price": 530,
+        "bus_type": "AC Sleeper"
+    },
+    {
+        "bus_id": "TN065",
+        "operator": "பாரதி Travels",
+        "source": "Nagapattinam",
+        "destination": "Ariyalur",
+        "departure_time": "13:30 AM",
+        "arrival_time": "7:00 PM",
+        "ticket_price": 904,
+        "bus_type": "AC Seater"
+    },
+    {
+        "bus_id": "TN066",
+        "operator": "மதுரைவீரன் Travels",
+        "source": "Salem",
+        "destination": "Virudhunagar",
+        "departure_time": "7:30 AM",
+        "arrival_time": "6:00 AM",
+        "ticket_price": 440,
+        "bus_type": "Non-AC Seater"
+    },
+    {
+        "bus_id": "TN067",
+        "operator": "அருண் Travels",
+        "source": "Nagapattinam",
+        "destination": "Madurai",
+        "departure_time": "9:30 AM",
+        "arrival_time": "9:00 PM",
+        "ticket_price": 267,
+        "bus_type": "AC Seater"
+    },
+    {
+        "bus_id": "TN068",
+        "operator": "சிவாஜி Travels",
+        "source": "Nagapattinam",
+        "destination": "Madurai",
+        "departure_time": "9:30 AM",
+        "arrival_time": "9:00 AM",
+        "ticket_price": 1178,
+        "bus_type": "Non-AC Seater"
+    },
+    {
+        "bus_id": "TN069",
+        "operator": "அருண் Travels",
+        "source": "Thanjavur",
+        "destination": "Cuddalore",
+        "departure_time": "16:30 AM",
+        "arrival_time": "3:30 AM",
+        "ticket_price": 216,
+        "bus_type": "Semi-Sleeper"
+    },
+    {
+        "bus_id": "TN070",
+        "operator": "பாரதி Travels",
+        "source": "Sivaganga",
+        "destination": "Tenkasi",
+        "departure_time": "14:30 PM",
+        "arrival_time": "5:30 AM",
+        "ticket_price": 307,
+        "bus_type": "AC Seater"
+    },
+    {
+        "bus_id": "TN071",
+        "operator": "அருண் Travels",
+        "source": "Coimbatore",
+        "destination": "Cuddalore",
+        "departure_time": "21:30 AM",
+        "arrival_time": "6:00 PM",
+        "ticket_price": 497,
+        "bus_type": "Semi-Sleeper"
+    },
+    {
+        "bus_id": "TN072",
+        "operator": "செங்கோல் Travels",
+        "source": "Virudhunagar",
+        "destination": "Theni",
+        "departure_time": "10:30 PM",
+        "arrival_time": "5:00 AM",
+        "ticket_price": 1015,
+        "bus_type": "AC Sleeper"
+    },
+    {
+        "bus_id": "TN073",
+        "operator": "விஜய் Travels",
+        "source": "Dindigul",
+        "destination": "Ariyalur",
+        "departure_time": "18:00 AM",
+        "arrival_time": "2:00 AM",
+        "ticket_price": 284,
+        "bus_type": "Semi-Sleeper"
+    },
+    {
+        "bus_id": "TN074",
+        "operator": "சிவாஜி Travels",
+        "source": "Namakkal",
+        "destination": "Salem",
+        "departure_time": "15:00 PM",
+        "arrival_time": "11:00 AM",
+        "ticket_price": 476,
+        "bus_type": "AC Seater"
+    },
+    {
+        "bus_id": "TN075",
+        "operator": "பாரதி Travels",
+        "source": "Thanjavur",
+        "destination": "Thoothukudi",
+        "departure_time": "6:00 PM",
+        "arrival_time": "2:30 AM",
+        "ticket_price": 406,
+        "bus_type": "Non-AC Seater"
+    },
+    {
+        "bus_id": "TN076",
+        "operator": "சிவாஜி Travels",
+        "source": "Chennai",
+        "destination": "Dindigul",
+        "departure_time": "14:30 AM",
+        "arrival_time": "3:30 AM",
+        "ticket_price": 757,
+        "bus_type": "Semi-Sleeper"
+    },
+    {
+        "bus_id": "TN077",
+        "operator": "அருண் Travels",
+        "source": "Thanjavur",
+        "destination": "Vellore",
+        "departure_time": "12:30 PM",
+        "arrival_time": "1:00 AM",
+        "ticket_price": 1023,
+        "bus_type": "AC Sleeper"
+    },
+    {
+        "bus_id": "TN078",
+        "operator": "பெரியார் Travels",
+        "source": "Ramanathapuram",
+        "destination": "Ariyalur",
+        "departure_time": "20:00 PM",
+        "arrival_time": "6:00 PM",
+        "ticket_price": 330,
+        "bus_type": "AC Sleeper"
+    },
+    {
+        "bus_id": "TN079",
+        "operator": "அமர Travels",
+        "source": "Chennai",
+        "destination": "Perambalur",
+        "departure_time": "9:00 PM",
+        "arrival_time": "7:30 AM",
+        "ticket_price": 993,
+        "bus_type": "Semi-Sleeper"
+    },
+    {
+        "bus_id": "TN080",
+        "operator": "மதுரைவீரன் Travels",
+        "source": "Tirunelveli",
+        "destination": "Madurai",
+        "departure_time": "14:00 AM",
+        "arrival_time": "11:30 AM",
+        "ticket_price": 944,
+        "bus_type": "Luxury Sleeper"
+    }
+]

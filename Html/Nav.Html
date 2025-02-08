@@ -1,10 +1,10 @@
 <div>
-    <a href="/index.html"><img src="/Css/Images/bus-png.png" alt=""></a>
+    <a href="/index.html" class="menu1"><img src="/Css/Images/bus-png.png" alt=""></a>
 </div>
 <div>
-    <ul>
-        <li><a href="./Html/Support.Html">Support</a></li>
-        <li> <a href="./Html/Aboutus.Html">About Us</a></li>
+    <ul class="menu">
+        <li><a href="/Html/Support.Html">Support</a></li>
+        <li> <a href="/Html/Aboutus.Html">About Us</a></li>
         <li><a href="#Profile">Profile</a></li>
     </ul>
 </div>
@@ -53,3 +53,18 @@
     border-radius: 10px;
 }
 </style>
+<script>
+    const Logo=document.querySelector('.menu1');
+    Logo.addEventListener('click',(e)=>{
+        e.preventDefault();
+        window.location.href='/index.html'
+    })
+    const menuItems = document.querySelectorAll('.menu li a'); // Select all menu links
+
+    menuItems.forEach((item) => {
+    item.addEventListener('click', (e) => {
+        e.preventDefault();
+        window.location.href = e.target.href; // Navigate to the link's href
+    });
+});
+    </script>
