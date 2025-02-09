@@ -34,7 +34,7 @@ const Citys = {
     "Pudukkottai": "Tamil Nadu",
     "Theni": "Tamil Nadu",
     "Virudhunagar": "Tamil Nadu",
-    "Thoothukudi": "Tamil Nadu",x
+    "Thoothukudi": "Tamil Nadu",
     "Tenkasi": "Tamil Nadu",
     "Kanyakumari": "Tamil Nadu",
     "Ariyalur": "Tamil Nadu",
