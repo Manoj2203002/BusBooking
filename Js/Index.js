@@ -1,17 +1,17 @@
-
 const From = document.getElementById('From');
 const To = document.getElementById('To');
 const date = document.getElementById('Date');
 const cityList = document.getElementById('cityList');
-const msg=document.getElementById('msg');
-const nav=document.querySelector('.navbar');
-fetch('/Html/Nav.Html').then(res=>res.text()).then(data=>{nav.innerHTML=data
-    const parser=new DOMParser();
-    const doc= parser.parseFromString(data,'text/html');
-    eval(doc.querySelector('script').textContent)
-});
-const Footer=document.querySelector('.Footer');
-fetch('/Html/Footer.html').then(res=> res.text()).then(data=>{Footer.innerHTML=data});
+const msg = document.getElementById('msg');
+const list = document.querySelector('.BusList');
+const allbus = [];
+
+// Fetch bus details from JSON file
+fetch('/bus_details.json')
+    .then((res) => res.json())
+    .then((data) => { allbus.push(...data); })
+    .catch((error) => console.error('Error fetching data:', error));
+
 const Citys = {
     "Chennai": "Tamil Nadu",
     "Coimbatore": "Tamil Nadu",
@@ -34,12 +34,14 @@ const Citys = {
     "Pudukkottai": "Tamil Nadu",
     "Theni": "Tamil Nadu",
     "Virudhunagar": "Tamil Nadu",
-    "Thoothukudi": "Tamil Nadu",
+    "Thoothukudi": "Tamil Nadu",x
     "Tenkasi": "Tamil Nadu",
     "Kanyakumari": "Tamil Nadu",
     "Ariyalur": "Tamil Nadu",
     "Perambalur": "Tamil Nadu"
 };
+
+// Add city names to datalist
 function Addcitys(datalistElement) {
     for (let city in Citys) {
         let option = document.createElement('option');
@@ -50,40 +52,74 @@ function Addcitys(datalistElement) {
 
 Addcitys(cityList);
 
-function swap(e){
+// Swap function for From & To input fields
+function swap(e) {
     e.preventDefault();
-   const frominput=document.getElementById('From');
-   const toinput=document.getElementById('To');
-   const temp=frominput.value;
-   frominput.value=toinput.value;
-   toinput.value=temp;
+    const temp = From.value;
+    From.value = To.value;
+    To.value = temp;
 }
+
+// Function to handle form submission
 function HandleClick(e) {
     e.preventDefault();
-    valid=true;
-    msg.innerHTML="";
-    const dateinput = date.value;
-    const selectdate = new Date(dateinput);
+    let valid = true;
+    msg.innerHTML = "";
+
+    const dateInputValue = date.value;
+    const selectedDate = new Date(dateInputValue);
     const today = new Date();
     today.setHours(0, 0, 0, 0);
-    if(From.value===""){
-        msg.innerHTML+="<p>*Please select the Bording City</p>";
-        valid=false;
+
+    if (From.value === "") {
+        msg.innerHTML += "<p>* Please select the Boarding City</p>";
+        valid = false;
+    } else if (To.value === "") {
+        msg.innerHTML += "<p>* Please select the Destination City</p>";
+        valid = false;
+    } else if (From.value === To.value) {
+        msg.innerHTML = "<p>* Boarding and Destination cities cannot be the same</p>";
+        valid = false;
+    } else if (dateInputValue === "") {
+        msg.innerHTML += "<p>* Please enter a date</p>";
+        valid = false;
+    } else if (selectedDate < today) {
+        msg.innerHTML += "<p>* Please enter a valid date</p>";
+        valid = false;
     }
-    else if(To.value===""){
-    msg.innerHTML+="<p>*Please select the Destination City</p>";
-        valid=false;
-   }
-  else if(From.value===To.value|| To.value===From.value){
-    msg.innerHTML="<p>*Destination and Bording City can't be same</p>";
-    valid=false;
-   }
-  else   if (dateinput === "") {
-    msg.innerHTML += "<p>*Please Enter the Date</p>";
-    valid = false;
-    } 
-    else if (selectdate <= today) {
-    msg.innerHTML += "<p>*Please Enter a Correct Date</p>";
-    valid = false;
+
+    if (valid) {
+        const filteredBuses = allbus.filter(bus =>
+            bus.source.toLowerCase() === From.value.toLowerCase() &&
+            bus.destination.toLowerCase() === To.value.toLowerCase()
+        )
+        if (filteredBuses.length > 0) {
+            list.innerHTML = filteredBuses.map((bus, index) => `
+                <div class="bus-card" id="bus-${index}">
+                    <h1>${bus.operator}</h1>
+                    <p class="bus-details">
+                        <span>From:</span> ${bus.source} &nbsp; | &nbsp;
+                        <span>To:</span> ${bus.destination} &nbsp; | &nbsp;
+                        <span>Departure:</span> ${bus.departure_time} &nbsp; | &nbsp;
+                        <span>Arrival:</span> ${bus.arrival_time} &nbsp; | &nbsp;
+                        <span>Type:</span> ${bus.bus_type}
+                    </p>
+                </div>
+            `).join('');
+        } else {
+            msg.innerHTML = `<p>*No buses found for the selected route.</p>`;
+        }
     }
 }
+
+// Function to set default date to today
+function setDefaultDate() {
+    const today = new Date();
+    const year = today.getFullYear();
+    const month = String(today.getMonth() + 1).padStart(2, '0'); // Ensure 2-digit month
+    const day = String(today.getDate()).padStart(2, '0'); // Ensure 2-digit day
+    date.value = `${year}-${month}-${day}`;
+}
+
+// Set default date when the page loads
+window.onload = setDefaultDate;
